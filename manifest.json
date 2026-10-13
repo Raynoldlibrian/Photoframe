@@ -1,0 +1,21 @@
+{
+  "name": "Photoframe Generator Instansi",
+  "short_name": "Photoframe",
+  "description": "Buat photoframe dokumentasi kegiatan lengkap dengan logo, tanggal, jam, lokasi, dan keterangan.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f1f5f9",
+  "theme_color": "#00684a",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["productivity", "photo", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
