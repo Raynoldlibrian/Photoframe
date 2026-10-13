@@ -419,7 +419,7 @@
         if (img) ctx.drawImage(img, 20, c - 8, 16, 16);
         drawTextAt(ctx, r.label, 44, c, 700, 14, '#334155');
         drawTextAt(ctx, ':', 150, c, 700, 14, '#94a3b8', 'center');
-        r.lines.forEach((ln, k) => drawTextAt(ctx, ln, CAP_X, c + k * 22, r.bold ? 600 : 400, 14, r.bold ? '#1e293b' : '#334155'));
+        r.lines.forEach((ln, k) => drawTextAt(ctx, ln, CAP_X, c + k * 22, r.bold ? 600 : 400, 18, r.bold ? '#1e293b' : '#334155'));
         cy += r.h;
         if (i < L.rows.length - 1) {
           ctx.fillStyle = '#f1f5f9';
